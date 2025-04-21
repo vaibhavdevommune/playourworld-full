@@ -237,7 +237,7 @@ function Leads() {
                 </div>
             </div>
 
-            <div className="mt-8">
+            <div className="mt-8 pt-8 border-t border-[#f1f1f4]">
                 <DataTable columns={columns} data={data} />
             </div>
         </div>

@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom'; // ✅ import useLocation
+import { Link, useLocation } from 'react-router-dom'; 
 import logo from '../assets/images/favi.svg';
 
 function Sidebar() {
-    const location = useLocation(); // ✅ get current URL path
+    const location = useLocation(); 
 
     const menuItems = [
         { name: 'Dashboard', icon: 'dashboard', to: '/dashboard' },
