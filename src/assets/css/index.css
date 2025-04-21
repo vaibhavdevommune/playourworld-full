@@ -1,0 +1,23 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.text-20{
+    font-size: 20px;
+}
+
+.text-18{
+    font-size: 18px;
+}
+
+#root{
+    .main-container{
+        width: 100%;
+        .sidebar{
+            width: 240px;
+        }
+        .main{
+            width: calc( 100% - 240px );
+        }
+    }
+}
